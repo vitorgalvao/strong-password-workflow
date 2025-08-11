@@ -212,6 +212,25 @@ printf '{ "items": [ %s, %s, %s, %s ] }' \
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>autopaste</key>
+				<false/>
+				<key>clipboardtext</key>
+				<string>{query}</string>
+				<key>ignoredynamicplaceholders</key>
+				<false/>
+				<key>transient</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.clipboard</string>
+			<key>uid</key>
+			<string>E321D95F-AB1D-45F5-AFA2-DFAF5B63A754</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>alfredfiltersresults</key>
 				<true/>
 				<key>alfredfiltersresultsmatchmode</key>
@@ -283,25 +302,6 @@ printf '{ "items": [ %s, %s, %s, %s ] }' \
 			<key>version</key>
 			<integer>3</integer>
 		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>autopaste</key>
-				<false/>
-				<key>clipboardtext</key>
-				<string>{query}</string>
-				<key>ignoredynamicplaceholders</key>
-				<false/>
-				<key>transient</key>
-				<false/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.output.clipboard</string>
-			<key>uid</key>
-			<string>E321D95F-AB1D-45F5-AFA2-DFAF5B63A754</string>
-			<key>version</key>
-			<integer>3</integer>
-		</dict>
 	</array>
 	<key>readme</key>
 	<string>## Usage
@@ -310,8 +310,8 @@ Generate a set of random character passwords via the `pass random` keyword.
 
 ![Generated random passwords](images/about/random.png)
 
-* &lt;kbd&gt;↩&lt;/kbd&gt; Copy password with special charactes.
-* &lt;kbd&gt;⌘&lt;/kbd&gt;&lt;kbd&gt;↩&lt;/kbd&gt; Copy password without special charactes.
+* &lt;kbd&gt;↩&lt;/kbd&gt; Copy password with special characters.
+* &lt;kbd&gt;⌘&lt;/kbd&gt;&lt;kbd&gt;↩&lt;/kbd&gt; Copy password without special characters.
 
 Generate a set of word-based passwords via the `pass word` keyword.
 
