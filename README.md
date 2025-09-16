@@ -10,11 +10,11 @@ Generate a set of random character passwords via the `pass random` keyword.
 
 ![Generated random passwords](Workflow/images/about/random.png)
 
-* <kbd>↩&#xFE0E;</kbd> Copy password with special charactes.
-* <kbd>⌘</kbd><kbd>↩&#xFE0E;</kbd> Copy password without special charactes.
+* <kbd>↩</kbd> Copy password with special characters.
+* <kbd>⌘</kbd><kbd>↩</kbd> Copy password without special characters.
 
 Generate a set of word-based passwords via the `pass word` keyword.
 
 ![Generated word-based passwords](Workflow/images/about/word.png)
 
-* <kbd>↩&#xFE0E;</kbd> Copy password.
+* <kbd>↩</kbd> Copy password.
